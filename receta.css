@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+
+    background-color: pink;
+}
+.contenedor-receta{
+    width: 60%;
+    height: 160vh;
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 3%;
+    padding: 25px 25px;
+}
+.contenedor-imagen-receta{
+    width: 100%;
+    height: 200px;
+    background-color: palevioletred;
+    border-radius: 3%;
+}
+.descripcion-receta{
+
+    margin-top: 20px;
+    text-align: justify;
+}
+.texto-descriptivo{
+    font-size: 12px;
+    margin-top: 15px;
+}
+.apartado-tiempo{
+    width: 95%;
+    height: 100px;
+    background-color: rgba(255, 192, 203, 0.233);
+    margin-top: 20px;
+    padding: 10px 10px;
+}
+.apartado-ingredientes{
+    margin-top: 20px;
+}
+.titulos{
+    margin-bottom: 20px;
+    color: brown;
+}
+.tiempo-de-preparacion{
+
+    color: rgb(165, 42, 42);
+}
+.primera-lista{
+    margin-top: 5px;
+}
+.espacio-elementos-lista{
+    margin-top: 10px;
+    font-size: 14px;
+    margin-left: 19px;
+    
+}
+.linea{
+    width: 100%;
+    height: 2px;
+    background-color: rgba(128, 128, 128, 0.377);
+    margin-top: 10px;
+}
+.apartado-instrucciones{
+    margin-top: 10px;
+}
+.apartado-nutricion{
+    height: 40vh;
+}
+.titulos2{
+    margin-top: 20px;
+}
+td{
+    text-decoration: underline;
+    margin-top: 10px;
+}
+.contenedor-datos{
+    display: grid;
+    grid-template-columns: auto;
+}
+.datos-nutricion{
+    margin-top: 10px;
+}
+.cajas-nutricion{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black ;
+    margin-top: 10px;
+}
+.texto-valores{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.span-1{
+    font-weight: bold;
+}
+
+
