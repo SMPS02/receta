@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+
+    background-image: linear-gradient(90deg,rgba(172, 255, 47, 0.452),rgba(137, 43, 226, 0.432),rgba(238, 130, 238, 0.459));
+}
+.contenedor-cuadradro{
+
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.contenedor-tarjeta-azul{
+
+    width: 200px;
+    height: 250px;
+    background-image:linear-gradient(180deg, rgb(111, 111, 248),rgb(10, 10, 248));
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px 15px ;
+
+
+}
+.contenedor-tarjeta-white{
+    width: 200px;
+    height: 250px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px black;
+    padding: 10px 10px;
+}
+.texto-azul{
+    color: rgba(255, 255, 255, 0.671);
+    text-align: center;
+}
+.puntuacion{
+    font-size: 12px;
+}
+.circulo-central{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.numero-puntuacion{
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+.numero-puntuacion-debajo{
+
+    color: gray;
+    font-size: .8rem;
+}
+.contenedor-parametros{
+
+    width: 100%;
+    height: 70%;
+}
+.parametros{
+    width: 100%;
+    height: 19%;
+    border-radius: 5px;
+    background-color: gray;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 5px;
+}
+.parametros-texto{
+
+    color: aqua;
+    font-size: 14px;
+}
+.porcentaje{
+    font-size: 14px;
+    color: blue;
+
+}
+.span2{
+    color: rgb(89, 89, 243);
+}
+.parametro1{
+
+    background-color: rgba(172, 255, 47, 0.452);
+}
+.parametro2{
+    background-color: rgba(137, 43, 226, 0.432);
+}
+.parametro3{
+    background-color: rgba(95, 158, 160, 0.479);
+}
+.parametro4{
+    background-color: rgba(238, 130, 238, 0.459);
+}
+.texto1{
+
+    color: greenyellow;
+    font-weight: 700;
+    filter: brightness(1.1);
+}
+.texto2{
+    
+    color: blueviolet;
+    font-weight: 700;
+    filter: brightness(1.1);
+}
+.texto3{
+    
+    color: cadetblue;
+    font-weight: 700;
+    filter: brightness(1.1);
+}
+.texto4{
+    
+    color: rgb(238, 130, 238);
+    font-weight: 700;
+    filter: brightness(1.1);
+}
+.contenedor-boton{
+    width: 100%;
+    height: 20%;
+}
+.boton{
+    width: 100%;
+    height: 75%;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: rgb(255, 127, 80);
+    padding: 5px 10px;
+
+}
+.Continuar{
+    font-weight: 800;
+    font-size: 1.1rem;
+    transition: transform .5s;
+
+}
+.Continuar:hover{
+    transform: scale(1.1);
+    color: blue;
+}
